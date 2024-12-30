@@ -1,11 +1,8 @@
 import { Text, View } from "react-native";
 
-import {styles} from "./styles"
-
-
 export function SignIn() {
   return (
-    <View style={styles.container}>
+    <View className="flex-1 justify-center items-center bg-white">
       <Text>Open up App.tsx to start working on your app!</Text>
     </View>
   );
