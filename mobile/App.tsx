@@ -9,6 +9,8 @@ import "./src/styles/global.css"
 import { Loading } from './src/components/loading';
 import { SafeAreaView, StatusBar } from 'react-native';
 
+import {ANDROID_CLIENT_ID, IOS_CLIENT_ID} from "@env"
+
 export default function App() {
 
   const [fontsLoaded] = useFonts({Roboto_400Regular,Roboto_700Bold})
